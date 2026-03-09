@@ -1,0 +1,1 @@
+PUSH 1; PUSH 5; LAB loop; DUP; PUSH 1; LE; JNZ end; SWAP; OVER; MUL; SWAP; PUSH 1; SUB; J loop; LAB end; POP; HLT
